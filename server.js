@@ -1,5 +1,6 @@
 // MODULE IMPORTS 
 const express = require('express');
+const request = require('request');
 const bodyParser = require('body-parser');
 const app = express();
 
@@ -8,7 +9,7 @@ app.use(bodyParser.json());
 
 // API
 router.post('/subscribe', (req, res) => {
-    
+
 })
 
 // SERVER CONFIG
