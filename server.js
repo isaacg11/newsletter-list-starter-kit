@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // API
-router.post('/subscribe', (req, res) => {
+app.post('/subscribe', (req, res) => {
 
 })
 
